@@ -10,14 +10,14 @@ class Person
   }
 }
 //child class
-class Student extends Person
+class StudentInheritance extends Person
 {
   // defining additional properties to child class
   int marks = 78;
   String tutorial = "TechVidvan Tutorial of Java";
   public static void main(String args[])
   {
-    Student obj = new Student();
+    StudentInheritance obj = new StudentInheritance();
     obj.show();
     System.out.println("Name of the student is: " + obj.name);
     System.out.println("Age of the student is: " + obj.age);
